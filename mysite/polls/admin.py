@@ -1,8 +1,10 @@
 from django.contrib import admin
 
-from django.contrib import admin
-
 # Register your models here.
-from .models import Students
+from django.contrib import admin
+from .models import Course, Lesson, UserProgress
 
-admin.site.register(Students)
+admin.site.register(Course)
+admin.site.register(Lesson)
+admin.site.register(UserProgress)
+
